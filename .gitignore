@@ -1,0 +1,32 @@
+# project
+tmp
+# TODO: Figure out where this is configured.
+journal
+
+# scala specific
+*.class
+*.log
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+project/target/
+logs/
+
+#emacs backup files
+*~
+
+# IntelliJ
+.idea
+.iml
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
